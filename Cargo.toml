@@ -1,0 +1,13 @@
+[package]
+name = "SVMZK"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wedpr_l_crypto_zkp_utils = "1.2.0"
+curve25519-dalek = "1"
+
+[dev-dependencies]
+rand = "0.8"
